@@ -8,17 +8,19 @@ export default function Home() {
         <Image
           src={me}
           alt="logo"
-          width={180}
+          width={100}
           height={38}
         />
         <div className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <p className="mb-2">
-            Hello Welcome to my Page !
-          </p>
+          <p className="mb-2">Hello, I am Elisabeth Erkekoglou </p>
+          <p>Junior Frontend Developer based in Germany</p>
+
+          <p>Currently working as :
+            a Costumer Service Employee <br /> @Arvato SE since October 2016</p>
         </div>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-        <a className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+          <a className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="#"
             target="_blank"
             rel="noopener noreferrer"
