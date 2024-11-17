@@ -8,7 +8,7 @@ export default function Blog() {
         <p>Welcome to the Blog page!</p>
         <p> My recent articles : </p>
         <Link
-          href="/post1"
+          href="blog/post1"
           className="border-solid border-black/[.08] first-letter:text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
         >
           Developer Imposter Syndrome
